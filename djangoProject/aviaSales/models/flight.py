@@ -6,7 +6,7 @@ from .user import MyUser
 
 
 class Flight(models.Model):
-    id = models.AutoField(primary_key=True)
+    number = models.CharField(max_length=20, primary_key=True)
     origin_point = models.CharField(max_length=20)
     destination_point = models.CharField(max_length=20)
     departure_time = models.DateTimeField(

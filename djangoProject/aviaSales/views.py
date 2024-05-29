@@ -129,8 +129,8 @@ class BookingCreateView(View):
     def get(self, request, current_flight_id, *args, **kwargs):
         warning_message_text = ""
         if request.user.is_authenticated and getUserRole(request.user.username) == 'passenger' and \
-                Flight.objects.filter(id=current_flight_id).exists():
-            flight = Flight.objects.get(id=current_flight_id)
+                Flight.objects.filter(number=current_flight_id).exists():
+            flight = Flight.objects.get(number=current_flight_id)
 
             form = BookingForm(available_seats=flight.available_seats)
             context = {
@@ -146,8 +146,8 @@ class BookingCreateView(View):
     def post(self, request, current_flight_id, *args, **kwargs):
         warning_message_text = ""
         if request.user.is_authenticated and getUserRole(request.user.username) == 'passenger' and \
-                Flight.objects.filter(id=current_flight_id).exists():
-            flight = Flight.objects.get(id=current_flight_id)
+                Flight.objects.filter(number=current_flight_id).exists():
+            flight = Flight.objects.get(number=current_flight_id)
             form = BookingForm(request.POST, available_seats=flight.available_seats)
 
             if form.is_valid():

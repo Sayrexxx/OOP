@@ -3173,3 +3173,8 @@ AttributeError: 'BookingForm' object has no attribute 'available_amount'
 2024-05-29 05:39:43,065 INFO booking NUMBER: 5
 2024-05-29 05:39:43,067 INFO bookingS: [{'number': 5, 'passenger': <MyUser: ivannik>, 'amount': 7, 'price': 1050.0, 'date_created': datetime.datetime(2024, 5, 29, 2, 10, 55, 538943, tzinfo=datetime.timezone.utc), 'status': 'В обработке'}]
 2024-05-29 05:39:52,512 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-29 16:40:33,357 WARNING Not Found: /favicon.ico
+2024-05-29 18:59:47,554 WARNING Not Found: /favicon.ico
+2024-05-29 19:14:22,667 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-29 19:26:51,742 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-29 19:26:59,511 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.

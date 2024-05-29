@@ -5,7 +5,7 @@
 {% block content %}
 {% for flight in flights %}
     <div>
-        <p>number: {{ flight.id }}
+        <p>number: {{ flight.number }}
         <p>available_seats: {{ flight.available_seats }}</p>
         <p>origin_point: {{ flight.origin_point }}</p>
         <p>departure_time: {{flight.departure_time }}</p>
@@ -14,7 +14,7 @@
         <p>price: ${{ flight.price }}</p>
 
 
-        <form action="{% url 'create_booking' flight.id %}" method="get">
+        <form action="{% url 'create_booking' flight.number %}" method="get">
             <button type="submit">Buy</button>
         </form>
     </div>
