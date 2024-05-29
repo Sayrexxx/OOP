@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Bookings{% endblock title %}
+
+{% block content %}
+{% for booking in bookings %}
+    {% if getUserRole == 'administrator' %}
+        <div>
+            <h2>Номер брони: {{ booking.number }} </h2>
+            <p>пассажир: {{ booking.passenger.username }}</p>
+            <p>количество: {{ booking.amount }}</p>
+            <p>стоимость: {{ booking.price }}</p>
+            <p>дата создания: {{ booking.date_created }}</p>
+            <p>статус брони: {{ booking.status }}</p>
+            <form method="post" action="{% url 'edit_booking_status' booking.number %}">
+                {% csrf_token %}
+                <label for="status">Изменить статус:</label>
+                <select id="status" name="status">
+                    {% for status_code, status_label in STATUS_CHOICES %}
+                        <option value="{{ status_code }}" {% if booking.status == status_code %}selected{% endif %}>{{ status_label }}</option>
+                    {% endfor %}
+                </select>
+                <button type="submit">Сохранить</button>
+            </form>
+            <form action="{% url 'delete_booking' booking.number %}" method="post">
+                {% csrf_token %}
+                <button type="submit">Delete booking</button>
+            </form>
+        </div>
+    {% else %}
+        <div>
+            <h2>Номер брони: {{ booking.number }}</h2>
+            <p>Стоимость: ${{ booking.price }}</p>
+            <p>Статус: {{ booking.status }}
+        </div>
+        {% if booking.status == "В обработке" %}
+            <form action="{% url 'cancel_booking' booking.number %}" method="post">
+                {% csrf_token %}
+                <button type="submit">Cancel booking</button>
+            </form>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+{% endblock content %}

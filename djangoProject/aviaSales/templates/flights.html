@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Flights{% endblock title %}
+{% block header %}Flights{% endblock header %}
+
+{% block content %}
+{% for flight in flights %}
+    <div>
+        <p>number: {{ flight.id }}
+        <p>available_seats: {{ flight.available_seats }}</p>
+        <p>origin_point: {{ flight.origin_point }}</p>
+        <p>departure_time: {{flight.departure_time }}</p>
+        <p>arrival_time: {{flight.arrival_time }}</p>
+        <p>destination_point: {{ flight.destination_point }}</p>
+        <p>price: ${{ flight.price }}</p>
+
+
+        <form action="{% url 'create_booking' flight.id %}" method="get">
+            <button type="submit">Buy</button>
+        </form>
+    </div>
+{% endfor %}
+{% endblock content %}

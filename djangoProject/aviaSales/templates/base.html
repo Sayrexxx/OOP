@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Default title{% endblock title %}</title>
+</head>
+<body>
+    {% if request.user.is_authenticated %}
+        {% load tz %}
+        {% get_current_timezone as TIME_ZONE %}
+        User's TIMEZONE: {{ TIME_ZONE }}
+        <br>
+        {% now "Y-m-d H:i:s" as current_time %}
+        Current Time: {{ current_time }}
+        <br>
+    {% endif %}
+    <a href="{%url 'home' %}">Главная</a>
+    {% if request.user.is_authenticated %}
+            <li> {{user.username}} | <a href="{% url 'logout' %}">Выйти</a></li>
+            {% if getUserRole == 'passenger' %}
+                <a href="{%url 'user_bookings'%}">Мои брони</a><br>
+            {% else %}
+                <a href="{%url 'all_bookings' %}"> Все брони на сервере </a><br>
+            {% endif %}
+            {% if not request.user.is_superuser %}
+                <a href="{%url 'profile' %}">Профиль</a><br>
+            {% endif %}
+            
+    {% else %}
+            <a href="{% url 'register_passenger' %}"><li>Регистрация для пассажиров</li></a>
+            <a href="{% url 'register_administrator' %}"><li>Регистрация для сотрудников</li></a>
+            <a href="{% url 'login' %}"><li>Войти</li></a>
+    {% endif %}
+    <a href="{%url 'flights' %}">Каталог перелетов</a><br>
+    <h1>{% block header %}{% endblock header %}</h1>
+    <div>{% block content%}{% endblock content %}</div>
+</body>
+</html>
