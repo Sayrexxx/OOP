@@ -1,9 +1,9 @@
 <h1>Booking Details</h1>
-<p>Name: {{ flight.id }}</p>
+<p>Number of flight: {{ flight.number }}</p>
 <p>Price for seat: ${{ flight.price }}</p>
 <p>Available seats: {{ flight.available_seats }}</p>
 
-<form method="post" action="{% url 'create_booking' current_flight_id=flight.id %}">
+<form method="post" action="{% url 'create_booking' flight.number %}">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Book</button>

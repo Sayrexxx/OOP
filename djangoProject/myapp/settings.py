@@ -147,6 +147,14 @@ from celery.schedules import crontab
 CELERY_BEAT_SCHEDULE = {
     'fetch-and-save-flights-every-5-minutes': {
         'task': 'aviaSales.tasks.fetch_and_save_flights',
-        'schedule': crontab(minute='*/5'),
+        'schedule': crontab(minute='*/2'),
     },
 }
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.yandex.ru'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'sayrexxx69@ya.ru'
+EMAIL_HOST_PASSWORD = 'slsopemyotjpfeqa'
+DEFAULT_FROM_EMAIL = 'sayrexxx69@ya.ru'

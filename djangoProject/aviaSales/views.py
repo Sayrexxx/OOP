@@ -157,7 +157,7 @@ class BookingCreateView(View):
                         user=MyUser.objects.get(username=request.user.username),
                         flight=flight,
                         amount=amount,
-                        price=amount * flight.price,
+                        price=format(amount * flight.price, ".2f"),
                     )
                     flight.available_seats -= amount
                     flight.save()

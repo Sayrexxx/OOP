@@ -32,7 +32,7 @@
             <p>Стоимость: ${{ booking.price }}</p>
             <p>Статус: {{ booking.status }}
         </div>
-        {% if booking.status == "В обработке" %}
+        {% if booking.status == "Принят" %}
             <form action="{% url 'cancel_booking' booking.number %}" method="post">
                 {% csrf_token %}
                 <button type="submit">Cancel booking</button>
