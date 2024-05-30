@@ -41,6 +41,8 @@ urlpatterns = [
 
     path('flights/<int:current_flight_id>/booking/create/', views.BookingCreateView.as_view(), name='create_booking'),
     
+    path('flights/search/', views.show_flights_by_airport, name='search_flights')
+    
 
 ]
 

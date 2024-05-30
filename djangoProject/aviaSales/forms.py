@@ -107,3 +107,8 @@ class UserProfileForm(forms.ModelForm):
         if not phone_number_pattern.match(phone_number):
             raise forms.ValidationError("Неверный формат номера телефона. Пожалуйста, введите номер в формате +375(25|29|33|44)XXXXXXX.")
         return phone_number
+    
+
+class SearchByCityForm(forms.Form):
+    city = forms.CharField(max_length=100, label='City',
+                           widget=forms.TextInput(attrs={'placeholder': 'Enter city name'}))

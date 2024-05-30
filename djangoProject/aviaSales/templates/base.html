@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Default title{% endblock title %}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIqPiIRRZ8AzTOkf4vBINN1Wq3jXjxFlrVVYUe3eoFQ9L5jt" crossorigin="anonymous">
 </head>
 <body>
     {% if request.user.is_authenticated %}
@@ -32,6 +33,7 @@
             <a href="{% url 'login' %}"><li>Войти</li></a>
     {% endif %}
     <a href="{%url 'flights' %}">Каталог перелетов</a><br>
+    <a href="{%url 'search_flights' %}">Поиск полётов</a><br>
     <h1>{% block header %}{% endblock header %}</h1>
     <div>{% block content%}{% endblock content %}</div>
 </body>

@@ -291,3 +291,19 @@ def get_all_bookings(request):
     else:
         warning_message_text = 'На сервере отсутствуют активные брони'
     return render(request, 'warning_message.html', {'warning_message_text': warning_message_text})
+
+def show_flights_by_airport(request):
+    if request.method == 'POST':
+        form = SearchByCityForm(request.POST)
+        if form.is_valid():
+            city = form.cleaned_data['city']
+            flights = Flight.objects.filter(origin_point=city)
+            name = request.user.username
+            context = {
+                'flights': flights,
+                'getUserRole': getUserRole(name),
+            }
+            return render(request, 'flights.html', context)
+    else:
+        form = SearchByCityForm()
+    return render(request, 'search_flight.html', {'form': form})

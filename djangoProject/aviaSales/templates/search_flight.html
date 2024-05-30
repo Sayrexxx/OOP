@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Search{% endblock title %}
+<body>
+{% block content %}
+    <h2>Search flights by Airport name</h2>
+    <form method="post" action="{% url 'search_flights' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Search</button>
+    </form>
+{% endblock %}
+</body>
+</html>
