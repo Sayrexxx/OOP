@@ -1,25 +1,25 @@
 {% extends "base.html" %}
    
-   {% block title %}Profile{% endblock %}
-   
-   {% block content %}
-   <h1>User Profile</h1>
-   
-   {% if role == "administrator" %}
-       <div>
-           <p><strong>Email:</strong> {{ email }}</p>
-           <p><strong>Age:</strong> {{ age }}</p>
-           <p><strong>Phone Number:</strong> {{ phone_number }}</p>
-           <a href="{{ edit_url }}" class="btn btn-primary">Edit Profile</a>
-       </div>
-   {% else %}
-       <div>
-           <p><strong>Username:</strong> {{ username }}</p>
-           <p><strong>Email:</strong> {{ email }}</p>
-           <p><strong>Age:</strong> {{ age }}</p>
-           <p><strong>Phone Number:</strong> {{ phone_number }}</p>
-           <a href="{{ edit_url }}" class="btn btn-primary">Edit Profile</a>
-       </div>
-   {% endif %}
-   
-   {% endblock %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<h1>User Profile</h1>
+
+{% if role == "administrator" %}
+    <div>
+        <p><strong>Email:</strong> {{ email }}</p>
+        <p><strong>Age:</strong> {{ age }}</p>
+        <p><strong>Phone Number:</strong> {{ phone_number }}</p>
+        <a href="{{ edit_url }}" class="btn btn-primary">Edit Profile</a>
+    </div>
+{% else %}
+    <div>
+        <p><strong>Username:</strong> {{ username }}</p>
+        <p><strong>Email:</strong> {{ email }}</p>
+        <p><strong>Age:</strong> {{ age }}</p>
+        <p><strong>Phone Number:</strong> {{ phone_number }}</p>
+        <a href="{{ edit_url }}" class="btn btn-primary">Edit Profile</a>
+    </div>
+{% endif %}
+
+{% endblock %}

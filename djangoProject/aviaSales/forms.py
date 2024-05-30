@@ -92,8 +92,10 @@ class BookingForm(ModelForm):
         logging.info(f"Amount: {amount}")  
         if self.available_seats == 0:
             raise ValidationError(f"По данному перелёту не осталось свободных мест")
-        elif amount > self.available_seats:
+        if amount > self.available_seats:
             raise ValidationError(f"Выберите количество мест, не превосходящее {self.available_seats}.")
+        if amount == 0:
+            raise ValidationError(f"Выберите количество мест, большее нуля")
         return amount
 
 
@@ -110,5 +112,5 @@ class UserProfileForm(forms.ModelForm):
     
 
 class SearchByCityForm(forms.Form):
-    city = forms.CharField(max_length=100, label='City',
-                           widget=forms.TextInput(attrs={'placeholder': 'Enter city name'}))
+    city = forms.CharField(max_length=100, label='Airport',
+                           widget=forms.TextInput(attrs={'placeholder': 'Enter airport name'}))

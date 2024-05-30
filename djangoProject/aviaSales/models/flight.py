@@ -2,8 +2,6 @@ from django.db import models
 from django.utils import timezone
 from datetime import timedelta
 
-from .user import MyUser
-
 
 class Flight(models.Model):
     number = models.CharField(max_length=20, primary_key=True)
@@ -17,3 +15,5 @@ class Flight(models.Model):
     )
     available_seats = models.PositiveSmallIntegerField()
     price = models.FloatField()
+    
+    is_active = models.BooleanField(default='True')

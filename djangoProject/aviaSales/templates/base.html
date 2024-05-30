@@ -3,38 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Default title{% endblock title %}</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIqPiIRRZ8AzTOkf4vBINN1Wq3jXjxFlrVVYUe3eoFQ9L5jt" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    {% if request.user.is_authenticated %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ЖМЫХ Airlines</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'home' %}">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'flights' %}">Каталог перелетов</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'search_flights' %}">Поиск полётов</a>
+                </li>
+                {% if request.user.is_authenticated %}
+                    {% if getUserRole == 'administrator' %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'all_bookings' %}">Все брони на сервере</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'user_bookings' %}">Мои брони</a>
+                        </li>
+                    {% endif %}
+                    {% if not request.user.is_superuser %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'profile' %}">Профиль</a>
+                        </li>
+                    {% endif %}
+                    <li class="nav-item">
+                        <span class="nav-link">{{ user.username }}</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout' %}">Выйти</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'register_passenger' %}">Регистрация для пассажиров</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'register_administrator' %}">Регистрация для сотрудников</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Войти</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container mt-4">
+    <div class="text-end">
         {% load tz %}
         {% get_current_timezone as TIME_ZONE %}
-        User's TIMEZONE: {{ TIME_ZONE }}
-        <br>
-        {% now "Y-m-d H:i:s" as current_time %}
-        Current Time: {{ current_time }}
-        <br>
-    {% endif %}
-    <a href="{%url 'home' %}">Главная</a>
-    {% if request.user.is_authenticated %}
-            <li> {{user.username}} | <a href="{% url 'logout' %}">Выйти</a></li>
-            {% if getUserRole == 'passenger' %}
-                <a href="{%url 'user_bookings'%}">Мои брони</a><br>
-            {% else %}
-                <a href="{%url 'all_bookings' %}"> Все брони на сервере </a><br>
-            {% endif %}
-            {% if not request.user.is_superuser %}
-                <a href="{%url 'profile' %}">Профиль</a><br>
-            {% endif %}
-            
-    {% else %}
-            <a href="{% url 'register_passenger' %}"><li>Регистрация для пассажиров</li></a>
-            <a href="{% url 'register_administrator' %}"><li>Регистрация для сотрудников</li></a>
-            <a href="{% url 'login' %}"><li>Войти</li></a>
-    {% endif %}
-    <a href="{%url 'flights' %}">Каталог перелетов</a><br>
-    <a href="{%url 'search_flights' %}">Поиск полётов</a><br>
+        <p class="lead">User's TIMEZONE: {{ TIME_ZONE }}</p>
+        <p class="lead">Current Time: {% now "Y-m-d H:i:s" %}</p>
+    </div>
     <h1>{% block header %}{% endblock header %}</h1>
-    <div>{% block content%}{% endblock content %}</div>
+    <div>{% block content %}{% endblock content %}</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXlB2j57p7x0edO7yIAXjm9grjIBVViwBOmQ2Pz8m7u5V2xr2fHZFdvF1UJD" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgPS0aIYTtF6ITfDptY5xP1I6VapbR0zD5OniDAgTXusQ6mFhp" crossorigin="anonymous"></script>
 </body>
 </html>

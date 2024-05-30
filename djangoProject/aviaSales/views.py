@@ -4,12 +4,12 @@ from .models.booking import Booking
 
 from .forms import *
 
-from django.http import JsonResponse
 from django.urls import reverse, reverse_lazy
 from django.views.generic import *
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.views import LoginView
 from django.shortcuts import render, get_object_or_404, redirect
+from django.utils import timezone
 from django.http import HttpResponseForbidden
 import logging
 
@@ -113,11 +113,19 @@ class FlightListView(ListView):
 
     def get(self, request, *args, **kwargs):
         flights = Flight.objects.all()
+        
+        for flight in flights:
+            if flight in Flight.objects.filter(departure_time__lt=timezone.now()):
+                flight.is_active = False
+            else:
+                continue
+            
         name = request.user.username
 
         context = {
             'flights': flights,
             'getUserRole': getUserRole(name),
+
         }
         return render(request, 'flights.html', context)
 
@@ -298,10 +306,9 @@ def show_flights_by_airport(request):
         if form.is_valid():
             city = form.cleaned_data['city']
             flights = Flight.objects.filter(origin_point=city)
-            name = request.user.username
             context = {
                 'flights': flights,
-                'getUserRole': getUserRole(name),
+                'getUserRole': getUserRole(request.user.username),
             }
             return render(request, 'flights.html', context)
     else:

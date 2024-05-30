@@ -6839,3 +6839,551 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateDoesNotExist: search.html
 2024-05-30 20:11:35,331 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/views.py changed, reloading.
 2024-05-30 20:11:54,606 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 20:42:55,100 INFO booking NUMBER: 21
+2024-05-30 20:42:55,101 INFO booking NUMBER: 22
+2024-05-30 20:42:55,102 INFO booking NUMBER: 23
+2024-05-30 20:42:55,102 INFO booking NUMBER: 24
+2024-05-30 20:42:55,103 INFO booking NUMBER: 25
+2024-05-30 20:42:55,103 INFO booking NUMBER: 26
+2024-05-30 20:42:55,104 INFO booking NUMBER: 27
+2024-05-30 20:42:55,106 INFO bookingS: [{'number': 21, 'passenger': <MyUser: passenger>, 'amount': 13, 'price': 10698.48, 'date_created': datetime.datetime(2024, 5, 30, 15, 24, 35, 732053, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 22, 'passenger': <MyUser: passenger>, 'amount': 13, 'price': 10698.48, 'date_created': datetime.datetime(2024, 5, 30, 15, 30, 11, 340027, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 23, 'passenger': <MyUser: passenger>, 'amount': 5, 'price': 4114.8, 'date_created': datetime.datetime(2024, 5, 30, 15, 30, 58, 33079, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 24, 'passenger': <MyUser: passenger>, 'amount': 6, 'price': 4937.76, 'date_created': datetime.datetime(2024, 5, 30, 15, 42, 15, 482060, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 25, 'passenger': <MyUser: passenger>, 'amount': 5, 'price': 5178.85, 'date_created': datetime.datetime(2024, 5, 30, 15, 47, 13, 954882, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 26, 'passenger': <MyUser: passenger>, 'amount': 6, 'price': 6214.62, 'date_created': datetime.datetime(2024, 5, 30, 15, 47, 40, 360546, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 27, 'passenger': <MyUser: passenger>, 'amount': 6, 'price': 6214.62, 'date_created': datetime.datetime(2024, 5, 30, 15, 49, 14, 385157, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 20:43:12,441 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 20:50:04,247 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-30 21:01:44,266 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-30 21:03:33,414 WARNING Not Found: /favicon.ico
+2024-05-30 21:14:29,325 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 21:21:17,511 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-30 21:23:04,048 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/models/booking.py changed, reloading.
+2024-05-30 21:23:13,427 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/models/user.py changed, reloading.
+2024-05-30 21:23:50,044 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-30 21:24:21,617 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-30 21:25:19,290 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-30 21:25:25,671 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-30 21:25:32,069 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-30 21:27:24,137 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/models/flight.py changed, reloading.
+2024-05-30 21:30:42,639 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-30 21:33:59,199 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/views.py changed, reloading.
+2024-05-30 21:35:04,963 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/views.py changed, reloading.
+2024-05-30 22:04:31,735 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-30 22:05:34,484 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-30 22:05:56,963 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/myapp/settings.py changed, reloading.
+2024-05-30 22:08:29,376 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-30 22:08:41,238 INFO Profile: silenth
+2024-05-30 22:09:07,472 INFO Profile: silenth
+2024-05-30 22:09:17,217 INFO Profile: silenth
+2024-05-30 22:09:30,144 INFO Amount: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+2024-05-30 22:09:30,148 WARNING UserBookingListView: <ul class="errorlist"><li>amount<ul class="errorlist"><li>Выберите количество мест, не превосходящее 114.</li></ul></li></ul>
+2024-05-30 22:09:51,323 INFO Amount: 0
+2024-05-30 22:09:52,678 INFO Amount: 0
+2024-05-30 22:09:54,095 INFO created Booking object
+2024-05-30 22:09:54,381 INFO created Booking object
+2024-05-30 22:09:58,528 INFO booking NUMBER: 28
+2024-05-30 22:09:58,528 INFO booking NUMBER: 29
+2024-05-30 22:09:58,529 INFO bookings: [{'number': 28, 'price': 0.0, 'status': 'Принят'}, {'number': 29, 'price': 0.0, 'status': 'Принят'}]
+2024-05-30 22:09:58,529 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:10:03,415 INFO booking NUMBER: 28
+2024-05-30 22:10:03,415 INFO booking NUMBER: 29
+2024-05-30 22:10:03,417 INFO bookings: [{'number': 28, 'price': 0.0, 'status': 'Принят'}, {'number': 29, 'price': 0.0, 'status': 'Принят'}]
+2024-05-30 22:10:03,417 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:10:29,872 INFO Amount: 0
+2024-05-30 22:10:31,139 INFO created Booking object
+2024-05-30 22:10:33,136 INFO booking NUMBER: 28
+2024-05-30 22:10:33,137 INFO booking NUMBER: 29
+2024-05-30 22:10:33,137 INFO booking NUMBER: 30
+2024-05-30 22:10:33,137 INFO bookings: [{'number': 28, 'price': 0.0, 'status': 'Принят'}, {'number': 29, 'price': 0.0, 'status': 'Принят'}, {'number': 30, 'price': 0.0, 'status': 'Принят'}]
+2024-05-30 22:10:33,137 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:10:57,387 INFO Amount: 22
+2024-05-30 22:10:58,585 INFO created Booking object
+2024-05-30 22:11:00,206 INFO Profile: silenth
+2024-05-30 22:11:02,081 INFO booking NUMBER: 28
+2024-05-30 22:11:02,081 INFO booking NUMBER: 29
+2024-05-30 22:11:02,082 INFO booking NUMBER: 30
+2024-05-30 22:11:02,082 INFO booking NUMBER: 31
+2024-05-30 22:11:02,084 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 22:11:03,417 INFO booking NUMBER: 28
+2024-05-30 22:11:03,417 INFO booking NUMBER: 29
+2024-05-30 22:11:03,417 INFO booking NUMBER: 30
+2024-05-30 22:11:03,417 INFO booking NUMBER: 31
+2024-05-30 22:11:03,418 INFO bookings: [{'number': 28, 'price': 0.0, 'status': 'Принят'}, {'number': 29, 'price': 0.0, 'status': 'Принят'}, {'number': 30, 'price': 0.0, 'status': 'Принят'}, {'number': 31, 'price': 11786.72, 'status': 'Принят'}]
+2024-05-30 22:11:03,418 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:11:12,988 INFO booking NUMBER: 28
+2024-05-30 22:11:12,988 INFO booking NUMBER: 29
+2024-05-30 22:11:12,988 INFO booking NUMBER: 30
+2024-05-30 22:11:12,988 INFO booking NUMBER: 31
+2024-05-30 22:11:12,989 INFO bookings: [{'number': 28, 'price': 0.0, 'status': 'Принят'}, {'number': 29, 'price': 0.0, 'status': 'Принят'}, {'number': 30, 'price': 0.0, 'status': 'Принят'}, {'number': 31, 'price': 11786.72, 'status': 'Отменён'}]
+2024-05-30 22:11:12,990 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:11:14,780 INFO Profile: silenth
+2024-05-30 22:11:57,807 INFO Amount: 0
+2024-05-30 22:11:58,975 INFO created Booking object
+2024-05-30 22:12:03,776 INFO booking NUMBER: 28
+2024-05-30 22:12:03,777 INFO booking NUMBER: 29
+2024-05-30 22:12:03,777 INFO booking NUMBER: 30
+2024-05-30 22:12:03,777 INFO booking NUMBER: 31
+2024-05-30 22:12:03,777 INFO booking NUMBER: 32
+2024-05-30 22:12:03,778 INFO bookings: [{'number': 28, 'price': 0.0, 'status': 'Принят'}, {'number': 29, 'price': 0.0, 'status': 'Принят'}, {'number': 30, 'price': 0.0, 'status': 'Принят'}, {'number': 31, 'price': 11786.72, 'status': 'Отменён'}, {'number': 32, 'price': 0.0, 'status': 'Принят'}]
+2024-05-30 22:12:03,778 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:12:12,418 INFO Profile: silenth
+2024-05-30 22:12:29,307 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 22:16:38,604 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 22:16:39,194 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 22:16:39,355 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 22:16:39,514 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 22:18:38,491 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/forms.py changed, reloading.
+2024-05-30 22:20:02,317 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/forms.py changed, reloading.
+2024-05-30 22:23:17,027 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/forms.py changed, reloading.
+2024-05-30 22:23:30,480 INFO Amount: 0
+2024-05-30 22:23:30,483 WARNING UserBookingListView: <ul class="errorlist"><li>amount<ul class="errorlist"><li>Выберите количество мест, большее нуля</li></ul></li></ul>
+2024-05-30 22:23:46,807 INFO Amount: 0
+2024-05-30 22:23:46,810 WARNING UserBookingListView: <ul class="errorlist"><li>amount<ul class="errorlist"><li>Выберите количество мест, большее нуля</li></ul></li></ul>
+2024-05-30 22:23:57,972 INFO Amount: 0
+2024-05-30 22:23:57,973 WARNING UserBookingListView: <ul class="errorlist"><li>amount<ul class="errorlist"><li>Выберите количество мест, большее нуля</li></ul></li></ul>
+2024-05-30 22:34:48,224 INFO {'_state': <django.db.models.base.ModelState object at 0x79149ff8ea50>, 'id': None, 'password': 'pbkdf2_sha256$600000$PDUipovzcCIUcmZMkUne2N$8JIwMc4aygqo09GUODca0bq3h3HckMbG4ZWMNYrsfFk=', 'last_login': None, 'is_superuser': False, 'username': 'admin', 'first_name': '', 'last_name': '', 'email': 'admin@gmail.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2024, 5, 30, 19, 34, 48, 119078, tzinfo=datetime.timezone.utc), 'role': 'administrator', 'phone_number': '+375448972361', 'age': 30, 'secret_key': '12345678qwerty!', 'user_ptr_id': None, '_password': 'qwerty123!'}
+2024-05-30 22:40:02,705 INFO Profile: admin
+2024-05-30 22:42:02,601 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 22:42:26,760 INFO Amount: 10
+2024-05-30 22:42:27,989 INFO created Booking object
+2024-05-30 22:43:39,633 INFO booking NUMBER: 33
+2024-05-30 22:43:39,634 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 22:43:39,634 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:43:57,096 INFO Profile: passenger
+2024-05-30 22:45:33,264 INFO booking NUMBER: 28
+2024-05-30 22:45:33,265 INFO booking NUMBER: 29
+2024-05-30 22:45:33,266 INFO booking NUMBER: 30
+2024-05-30 22:45:33,266 INFO booking NUMBER: 31
+2024-05-30 22:45:33,267 INFO booking NUMBER: 32
+2024-05-30 22:45:33,268 INFO booking NUMBER: 33
+2024-05-30 22:45:33,270 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 22:46:35,061 INFO booking NUMBER: 28
+2024-05-30 22:46:35,061 INFO booking NUMBER: 29
+2024-05-30 22:46:35,062 INFO booking NUMBER: 30
+2024-05-30 22:46:35,062 INFO booking NUMBER: 31
+2024-05-30 22:46:35,062 INFO booking NUMBER: 32
+2024-05-30 22:46:35,063 INFO booking NUMBER: 33
+2024-05-30 22:46:35,064 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 22:46:38,951 INFO booking NUMBER: 33
+2024-05-30 22:46:38,953 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 22:46:38,953 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:47:07,500 INFO booking NUMBER: 28
+2024-05-30 22:47:07,501 INFO booking NUMBER: 29
+2024-05-30 22:47:07,502 INFO booking NUMBER: 30
+2024-05-30 22:47:07,502 INFO booking NUMBER: 31
+2024-05-30 22:47:07,502 INFO booking NUMBER: 32
+2024-05-30 22:47:07,503 INFO booking NUMBER: 33
+2024-05-30 22:47:07,505 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 22:47:16,612 INFO Profile: passenger
+2024-05-30 22:47:18,627 INFO booking NUMBER: 28
+2024-05-30 22:47:18,627 INFO booking NUMBER: 29
+2024-05-30 22:47:18,628 INFO booking NUMBER: 30
+2024-05-30 22:47:18,628 INFO booking NUMBER: 31
+2024-05-30 22:47:18,628 INFO booking NUMBER: 32
+2024-05-30 22:47:18,629 INFO booking NUMBER: 33
+2024-05-30 22:47:18,630 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 22:47:20,391 INFO booking NUMBER: 33
+2024-05-30 22:47:20,393 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 22:47:20,393 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:47:40,893 INFO booking NUMBER: 33
+2024-05-30 22:47:40,895 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 22:47:40,895 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 22:47:43,765 INFO Profile: passenger
+2024-05-30 22:48:30,722 INFO Profile: passenger
+2024-05-30 22:48:31,161 INFO Profile: passenger
+2024-05-30 22:48:31,371 INFO Profile: passenger
+2024-05-30 22:48:31,940 INFO Profile: passenger
+2024-05-30 22:48:32,253 INFO Profile: passenger
+2024-05-30 22:48:32,442 INFO Profile: passenger
+2024-05-30 22:48:32,637 INFO Profile: passenger
+2024-05-30 22:48:32,826 INFO Profile: passenger
+2024-05-30 22:48:33,039 INFO Profile: passenger
+2024-05-30 22:48:33,249 INFO Profile: passenger
+2024-05-30 22:48:33,455 INFO Profile: passenger
+2024-05-30 22:48:33,663 INFO Profile: passenger
+2024-05-30 22:48:33,893 INFO Profile: passenger
+2024-05-30 22:48:34,111 INFO Profile: passenger
+2024-05-30 22:48:34,344 INFO Profile: passenger
+2024-05-30 22:48:50,880 INFO Profile: passenger
+2024-05-30 22:48:51,762 INFO booking NUMBER: 28
+2024-05-30 22:48:51,763 INFO booking NUMBER: 29
+2024-05-30 22:48:51,765 INFO booking NUMBER: 30
+2024-05-30 22:48:51,766 INFO booking NUMBER: 31
+2024-05-30 22:48:51,767 INFO booking NUMBER: 32
+2024-05-30 22:48:51,768 INFO booking NUMBER: 33
+2024-05-30 22:48:51,772 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 22:48:53,214 INFO booking NUMBER: 33
+2024-05-30 22:48:53,215 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 22:48:53,215 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 23:10:43,612 INFO booking NUMBER: 33
+2024-05-30 23:10:43,613 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 23:10:43,613 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 23:10:44,661 INFO Profile: passenger
+2024-05-30 23:11:14,218 INFO booking NUMBER: 28
+2024-05-30 23:11:14,218 INFO booking NUMBER: 29
+2024-05-30 23:11:14,219 INFO booking NUMBER: 30
+2024-05-30 23:11:14,220 INFO booking NUMBER: 31
+2024-05-30 23:11:14,221 INFO booking NUMBER: 32
+2024-05-30 23:11:14,221 INFO booking NUMBER: 33
+2024-05-30 23:11:14,224 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 23:11:15,892 INFO Profile: passenger
+2024-05-30 23:11:49,480 INFO booking NUMBER: 28
+2024-05-30 23:11:49,482 INFO booking NUMBER: 29
+2024-05-30 23:11:49,484 INFO booking NUMBER: 30
+2024-05-30 23:11:49,485 INFO booking NUMBER: 31
+2024-05-30 23:11:49,486 INFO booking NUMBER: 32
+2024-05-30 23:11:49,487 INFO booking NUMBER: 33
+2024-05-30 23:11:49,489 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-30 23:30:40,949 INFO booking NUMBER: 33
+2024-05-30 23:30:40,950 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Принят'}]
+2024-05-30 23:30:40,950 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 23:30:48,331 INFO booking NUMBER: 33
+2024-05-30 23:30:48,332 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Отменён'}]
+2024-05-30 23:30:48,332 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 23:31:02,070 INFO booking NUMBER: 33
+2024-05-30 23:31:02,071 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Отменён'}]
+2024-05-30 23:31:02,071 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 23:31:09,568 INFO Profile: passenger
+2024-05-30 23:32:36,177 INFO Profile: passenger
+2024-05-30 23:32:48,533 INFO booking NUMBER: 33
+2024-05-30 23:32:48,535 INFO bookings: [{'number': 33, 'price': 11835.1, 'status': 'Отменён'}]
+2024-05-30 23:32:48,535 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-30 23:32:52,360 INFO Profile: passenger
+2024-05-30 23:32:57,696 INFO booking NUMBER: 28
+2024-05-30 23:32:57,697 INFO booking NUMBER: 29
+2024-05-30 23:32:57,697 INFO booking NUMBER: 30
+2024-05-30 23:32:57,698 INFO booking NUMBER: 31
+2024-05-30 23:32:57,699 INFO booking NUMBER: 32
+2024-05-30 23:32:57,699 INFO booking NUMBER: 33
+2024-05-30 23:32:57,702 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-30 23:33:33,966 WARNING Forbidden (CSRF token from POST incorrect.): /login/
+2024-05-30 23:33:56,346 WARNING UserBookingListView: Пожалуйста, авторизуйтесь, чтобы оформить заказ
+2024-05-30 23:35:24,606 INFO Profile: admin
+2024-05-30 23:35:29,444 INFO booking NUMBER: 28
+2024-05-30 23:35:29,444 INFO booking NUMBER: 29
+2024-05-30 23:35:29,444 INFO booking NUMBER: 30
+2024-05-30 23:35:29,445 INFO booking NUMBER: 31
+2024-05-30 23:35:29,445 INFO booking NUMBER: 32
+2024-05-30 23:35:29,446 INFO booking NUMBER: 33
+2024-05-30 23:35:29,447 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-30 23:36:25,982 INFO booking NUMBER: 28
+2024-05-30 23:36:25,983 INFO booking NUMBER: 29
+2024-05-30 23:36:25,984 INFO booking NUMBER: 30
+2024-05-30 23:36:25,984 INFO booking NUMBER: 31
+2024-05-30 23:36:25,985 INFO booking NUMBER: 32
+2024-05-30 23:36:25,985 INFO booking NUMBER: 33
+2024-05-30 23:36:25,987 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-30 23:36:27,616 INFO Profile: admin
+2024-05-30 23:36:31,045 INFO Profile: admin
+2024-05-30 23:37:06,077 WARNING Forbidden (CSRF token from POST incorrect.): /login/
+2024-05-30 23:41:31,736 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-30 23:48:49,151 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-30 23:49:07,621 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-30 23:49:32,071 INFO booking NUMBER: 28
+2024-05-30 23:49:32,071 INFO booking NUMBER: 29
+2024-05-30 23:49:32,072 INFO booking NUMBER: 30
+2024-05-30 23:49:32,073 INFO booking NUMBER: 31
+2024-05-30 23:49:32,073 INFO booking NUMBER: 32
+2024-05-30 23:49:32,074 INFO booking NUMBER: 33
+2024-05-30 23:49:32,075 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-30 23:49:34,209 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-30 23:49:39,522 INFO Profile: arsen
+2024-05-30 23:49:45,550 INFO booking NUMBER: 28
+2024-05-30 23:49:45,551 INFO booking NUMBER: 29
+2024-05-30 23:49:45,551 INFO booking NUMBER: 30
+2024-05-30 23:49:45,552 INFO booking NUMBER: 31
+2024-05-30 23:49:45,553 INFO booking NUMBER: 32
+2024-05-30 23:49:45,554 INFO booking NUMBER: 33
+2024-05-30 23:49:45,555 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-30 23:50:40,253 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/views.py changed, reloading.
+2024-05-30 23:50:46,178 INFO booking NUMBER: 28
+2024-05-30 23:50:46,179 INFO booking NUMBER: 29
+2024-05-30 23:50:46,179 INFO booking NUMBER: 30
+2024-05-30 23:50:46,180 INFO booking NUMBER: 31
+2024-05-30 23:50:46,181 INFO booking NUMBER: 32
+2024-05-30 23:50:46,181 INFO booking NUMBER: 33
+2024-05-30 23:50:46,183 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-30 23:57:42,622 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/views.py changed, reloading.
+2024-05-31 00:00:16,731 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:00:32,170 INFO Profile: arsen
+2024-05-31 00:01:23,575 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:01:41,180 INFO Profile: arsen
+2024-05-31 00:01:54,448 INFO booking NUMBER: 28
+2024-05-31 00:01:54,449 INFO booking NUMBER: 29
+2024-05-31 00:01:54,450 INFO booking NUMBER: 30
+2024-05-31 00:01:54,450 INFO booking NUMBER: 31
+2024-05-31 00:01:54,450 INFO booking NUMBER: 32
+2024-05-31 00:01:54,451 INFO booking NUMBER: 33
+2024-05-31 00:01:54,453 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-31 00:01:56,850 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:02:14,860 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:06:20,228 INFO booking NUMBER: 28
+2024-05-31 00:06:20,230 INFO booking NUMBER: 29
+2024-05-31 00:06:20,230 INFO booking NUMBER: 30
+2024-05-31 00:06:20,231 INFO booking NUMBER: 31
+2024-05-31 00:06:20,232 INFO booking NUMBER: 32
+2024-05-31 00:06:20,232 INFO booking NUMBER: 33
+2024-05-31 00:06:20,234 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-31 00:08:54,360 INFO booking NUMBER: 28
+2024-05-31 00:08:54,360 INFO booking NUMBER: 29
+2024-05-31 00:08:54,361 INFO booking NUMBER: 30
+2024-05-31 00:08:54,361 INFO booking NUMBER: 31
+2024-05-31 00:08:54,361 INFO booking NUMBER: 32
+2024-05-31 00:08:54,362 INFO booking NUMBER: 33
+2024-05-31 00:08:54,364 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-31 00:08:57,697 INFO Profile: arsen
+2024-05-31 00:09:00,880 INFO booking NUMBER: 28
+2024-05-31 00:09:00,881 INFO booking NUMBER: 29
+2024-05-31 00:09:00,882 INFO booking NUMBER: 30
+2024-05-31 00:09:00,883 INFO booking NUMBER: 31
+2024-05-31 00:09:00,883 INFO booking NUMBER: 32
+2024-05-31 00:09:00,884 INFO booking NUMBER: 33
+2024-05-31 00:09:00,889 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-31 00:09:01,865 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:09:11,276 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:09:11,728 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:09:12,170 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:09:35,922 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:09:36,917 INFO Profile: arsen
+2024-05-31 00:09:41,107 INFO booking NUMBER: 28
+2024-05-31 00:09:41,107 INFO booking NUMBER: 29
+2024-05-31 00:09:41,108 INFO booking NUMBER: 30
+2024-05-31 00:09:41,108 INFO booking NUMBER: 31
+2024-05-31 00:09:41,109 INFO booking NUMBER: 32
+2024-05-31 00:09:41,109 INFO booking NUMBER: 33
+2024-05-31 00:09:41,111 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}]
+2024-05-31 00:13:08,227 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:13:46,525 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:13:47,358 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:13:51,380 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:13:52,761 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:14:31,930 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/forms.py changed, reloading.
+2024-05-31 00:14:37,861 WARNING UserbookingListView: Отсутствуют брони, перейдите в каталог перелётов и найдите для себя что-нибудь интересное
+2024-05-31 00:14:46,952 INFO Amount: 13
+2024-05-31 00:14:48,176 INFO created Booking object
+2024-05-31 00:14:51,570 INFO booking NUMBER: 34
+2024-05-31 00:14:51,571 INFO bookings: [{'number': 34, 'price': 9264.45, 'status': 'Принят'}]
+2024-05-31 00:14:51,571 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-31 00:15:01,648 INFO Amount: 44
+2024-05-31 00:15:02,784 INFO created Booking object
+2024-05-31 00:15:07,899 INFO Amount: 2
+2024-05-31 00:15:08,985 INFO created Booking object
+2024-05-31 00:15:10,439 INFO booking NUMBER: 34
+2024-05-31 00:15:10,439 INFO booking NUMBER: 35
+2024-05-31 00:15:10,439 INFO booking NUMBER: 36
+2024-05-31 00:15:10,440 INFO bookings: [{'number': 34, 'price': 9264.45, 'status': 'Принят'}, {'number': 35, 'price': 33751.96, 'status': 'Принят'}, {'number': 36, 'price': 2781.46, 'status': 'Принят'}]
+2024-05-31 00:15:10,440 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-31 00:15:22,700 INFO booking NUMBER: 28
+2024-05-31 00:15:22,701 INFO booking NUMBER: 29
+2024-05-31 00:15:22,701 INFO booking NUMBER: 30
+2024-05-31 00:15:22,702 INFO booking NUMBER: 31
+2024-05-31 00:15:22,703 INFO booking NUMBER: 32
+2024-05-31 00:15:22,704 INFO booking NUMBER: 33
+2024-05-31 00:15:22,705 INFO booking NUMBER: 34
+2024-05-31 00:15:22,705 INFO booking NUMBER: 35
+2024-05-31 00:15:22,705 INFO booking NUMBER: 36
+2024-05-31 00:15:22,707 INFO bookingS: [{'number': 28, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 51, 324557, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:15:36,792 INFO booking NUMBER: 29
+2024-05-31 00:15:36,793 INFO booking NUMBER: 30
+2024-05-31 00:15:36,793 INFO booking NUMBER: 31
+2024-05-31 00:15:36,794 INFO booking NUMBER: 32
+2024-05-31 00:15:36,794 INFO booking NUMBER: 33
+2024-05-31 00:15:36,795 INFO booking NUMBER: 34
+2024-05-31 00:15:36,795 INFO booking NUMBER: 35
+2024-05-31 00:15:36,795 INFO booking NUMBER: 36
+2024-05-31 00:15:36,798 INFO bookingS: [{'number': 29, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 9, 52, 680067, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:15:37,913 INFO booking NUMBER: 30
+2024-05-31 00:15:37,914 INFO booking NUMBER: 31
+2024-05-31 00:15:37,914 INFO booking NUMBER: 32
+2024-05-31 00:15:37,915 INFO booking NUMBER: 33
+2024-05-31 00:15:37,915 INFO booking NUMBER: 34
+2024-05-31 00:15:37,915 INFO booking NUMBER: 35
+2024-05-31 00:15:37,916 INFO booking NUMBER: 36
+2024-05-31 00:15:37,917 INFO bookingS: [{'number': 30, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 29, 873575, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:15:38,415 INFO booking NUMBER: 31
+2024-05-31 00:15:38,415 INFO booking NUMBER: 32
+2024-05-31 00:15:38,416 INFO booking NUMBER: 33
+2024-05-31 00:15:38,416 INFO booking NUMBER: 34
+2024-05-31 00:15:38,416 INFO booking NUMBER: 35
+2024-05-31 00:15:38,417 INFO booking NUMBER: 36
+2024-05-31 00:15:38,418 INFO bookingS: [{'number': 31, 'passenger': <MyUser: silenth>, 'amount': 22, 'price': 11786.72, 'date_created': datetime.datetime(2024, 5, 30, 19, 10, 57, 388521, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:15:39,605 INFO booking NUMBER: 32
+2024-05-31 00:15:39,606 INFO booking NUMBER: 33
+2024-05-31 00:15:39,606 INFO booking NUMBER: 34
+2024-05-31 00:15:39,607 INFO booking NUMBER: 35
+2024-05-31 00:15:39,607 INFO booking NUMBER: 36
+2024-05-31 00:15:39,609 INFO bookingS: [{'number': 32, 'passenger': <MyUser: silenth>, 'amount': 0, 'price': 0.0, 'date_created': datetime.datetime(2024, 5, 30, 19, 11, 57, 808098, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:15:40,250 INFO booking NUMBER: 33
+2024-05-31 00:15:40,250 INFO booking NUMBER: 34
+2024-05-31 00:15:40,251 INFO booking NUMBER: 35
+2024-05-31 00:15:40,251 INFO booking NUMBER: 36
+2024-05-31 00:15:40,255 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:16:57,259 INFO Amount: 11
+2024-05-31 00:16:58,413 INFO created Booking object
+2024-05-31 00:17:00,069 INFO booking NUMBER: 37
+2024-05-31 00:17:00,070 INFO bookings: [{'number': 37, 'price': 13018.61, 'status': 'Принят'}]
+2024-05-31 00:17:00,070 INFO UserBookingListView: passenger booking list was successfully created
+2024-05-31 00:17:15,001 INFO booking NUMBER: 33
+2024-05-31 00:17:15,002 INFO booking NUMBER: 34
+2024-05-31 00:17:15,003 INFO booking NUMBER: 35
+2024-05-31 00:17:15,004 INFO booking NUMBER: 36
+2024-05-31 00:17:15,004 INFO booking NUMBER: 37
+2024-05-31 00:17:15,008 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 37, 'passenger': <MyUser: silenth>, 'amount': 11, 'price': 13018.61, 'date_created': datetime.datetime(2024, 5, 30, 21, 16, 57, 259867, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:17:25,059 INFO 123: Booking object (33)
+2024-05-31 00:17:25,060 INFO booking NUMBER: 33
+2024-05-31 00:17:25,060 INFO booking NUMBER: 34
+2024-05-31 00:17:25,061 INFO booking NUMBER: 35
+2024-05-31 00:17:25,061 INFO booking NUMBER: 36
+2024-05-31 00:17:25,061 INFO booking NUMBER: 37
+2024-05-31 00:17:25,062 INFO bookings: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 37, 'passenger': <MyUser: silenth>, 'amount': 11, 'price': 13018.61, 'date_created': datetime.datetime(2024, 5, 30, 21, 16, 57, 259867, tzinfo=datetime.timezone.utc), 'status': 'В обработке '}]
+2024-05-31 00:17:25,062 INFO UserbookingListView: employee booking list was successfully created
+2024-05-31 00:17:36,196 INFO booking NUMBER: 33
+2024-05-31 00:17:36,196 INFO booking NUMBER: 34
+2024-05-31 00:17:36,197 INFO booking NUMBER: 35
+2024-05-31 00:17:36,197 INFO booking NUMBER: 36
+2024-05-31 00:17:36,198 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:21:46,252 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/signals.py changed, reloading.
+2024-05-31 00:23:18,306 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-31 00:23:49,886 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-31 00:24:05,325 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-31 00:24:11,678 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/signals.py changed, reloading.
+2024-05-31 00:24:53,278 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/signals.py changed, reloading.
+2024-05-31 00:25:20,122 INFO booking NUMBER: 33
+2024-05-31 00:25:20,123 INFO booking NUMBER: 34
+2024-05-31 00:25:20,124 INFO booking NUMBER: 35
+2024-05-31 00:25:20,124 INFO booking NUMBER: 36
+2024-05-31 00:25:20,128 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:25:21,565 INFO booking NUMBER: 33
+2024-05-31 00:25:21,566 INFO booking NUMBER: 34
+2024-05-31 00:25:21,567 INFO booking NUMBER: 35
+2024-05-31 00:25:21,568 INFO booking NUMBER: 36
+2024-05-31 00:25:21,570 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:25:35,970 INFO Amount: 23
+2024-05-31 00:25:36,991 ERROR Internal Server Error: /flights/8217/booking/create/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: aviaSales_notification.message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/views.py", line 164, in post
+    Booking.objects.create(
+  File "/usr/lib/python3/dist-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/usr/lib/python3/dist-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+           ^
+  File "/usr/lib/python3/dist-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/signals.py", line 8, in booking_saved
+    send_email(instance.user.id, instance)
+  File "/usr/lib/python3/dist-packages/celery/local.py", line 182, in __call__
+    return self._get_current_object()(*a, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/celery/app/task.py", line 411, in __call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py", line 58, in send_email
+    Notification.objects.create(user=user, message=message)
+  File "/usr/lib/python3/dist-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/lib/python3/dist-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: aviaSales_notification.message
+2024-05-31 00:26:39,604 INFO /home/sayrex/PythonProjects/pythonCourceProject/djangoProject/aviaSales/tasks.py changed, reloading.
+2024-05-31 00:26:44,200 INFO Amount: 23
+2024-05-31 00:26:45,444 INFO created Booking object
+2024-05-31 00:26:57,756 INFO booking NUMBER: 33
+2024-05-31 00:26:57,757 INFO booking NUMBER: 34
+2024-05-31 00:26:57,757 INFO booking NUMBER: 35
+2024-05-31 00:26:57,758 INFO booking NUMBER: 36
+2024-05-31 00:26:57,759 INFO booking NUMBER: 38
+2024-05-31 00:26:57,759 INFO booking NUMBER: 39
+2024-05-31 00:26:57,761 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 38, 'passenger': <MyUser: silenth>, 'amount': 23, 'price': 27220.73, 'date_created': datetime.datetime(2024, 5, 30, 21, 25, 35, 973337, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 39, 'passenger': <MyUser: silenth>, 'amount': 23, 'price': 27220.73, 'date_created': datetime.datetime(2024, 5, 30, 21, 26, 44, 201394, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:27:14,011 INFO 123: Booking object (33)
+2024-05-31 00:27:14,012 INFO booking NUMBER: 33
+2024-05-31 00:27:14,012 INFO booking NUMBER: 34
+2024-05-31 00:27:14,012 INFO booking NUMBER: 35
+2024-05-31 00:27:14,013 INFO booking NUMBER: 36
+2024-05-31 00:27:14,013 INFO booking NUMBER: 38
+2024-05-31 00:27:14,014 INFO booking NUMBER: 39
+2024-05-31 00:27:14,014 INFO bookings: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 38, 'passenger': <MyUser: silenth>, 'amount': 23, 'price': 27220.73, 'date_created': datetime.datetime(2024, 5, 30, 21, 25, 35, 973337, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 39, 'passenger': <MyUser: silenth>, 'amount': 23, 'price': 27220.73, 'date_created': datetime.datetime(2024, 5, 30, 21, 26, 44, 201394, tzinfo=datetime.timezone.utc), 'status': 'В обработке '}]
+2024-05-31 00:27:14,014 INFO UserbookingListView: employee booking list was successfully created
+2024-05-31 00:27:22,150 INFO booking NUMBER: 33
+2024-05-31 00:27:22,151 INFO booking NUMBER: 34
+2024-05-31 00:27:22,152 INFO booking NUMBER: 35
+2024-05-31 00:27:22,153 INFO booking NUMBER: 36
+2024-05-31 00:27:22,153 INFO booking NUMBER: 38
+2024-05-31 00:27:22,156 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 38, 'passenger': <MyUser: silenth>, 'amount': 23, 'price': 27220.73, 'date_created': datetime.datetime(2024, 5, 30, 21, 25, 35, 973337, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:27:30,759 INFO booking NUMBER: 33
+2024-05-31 00:27:30,760 INFO booking NUMBER: 34
+2024-05-31 00:27:30,761 INFO booking NUMBER: 35
+2024-05-31 00:27:30,761 INFO booking NUMBER: 36
+2024-05-31 00:27:30,764 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:28:06,498 INFO booking NUMBER: 33
+2024-05-31 00:28:06,500 INFO booking NUMBER: 34
+2024-05-31 00:28:06,500 INFO booking NUMBER: 35
+2024-05-31 00:28:06,502 INFO booking NUMBER: 36
+2024-05-31 00:28:06,507 INFO bookingS: [{'number': 33, 'passenger': <MyUser: passenger>, 'amount': 10, 'price': 11835.1, 'date_created': datetime.datetime(2024, 5, 30, 19, 42, 26, 760869, tzinfo=datetime.timezone.utc), 'status': 'Отменён'}, {'number': 34, 'passenger': <MyUser: arsen>, 'amount': 13, 'price': 9264.45, 'date_created': datetime.datetime(2024, 5, 30, 21, 14, 46, 952969, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 35, 'passenger': <MyUser: arsen>, 'amount': 44, 'price': 33751.96, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 1, 649930, tzinfo=datetime.timezone.utc), 'status': 'Принят'}, {'number': 36, 'passenger': <MyUser: arsen>, 'amount': 2, 'price': 2781.46, 'date_created': datetime.datetime(2024, 5, 30, 21, 15, 7, 900201, tzinfo=datetime.timezone.utc), 'status': 'Принят'}]
+2024-05-31 00:28:07,302 INFO Profile: admin

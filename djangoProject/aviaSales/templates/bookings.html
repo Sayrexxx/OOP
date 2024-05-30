@@ -2,42 +2,79 @@
 {% block title %}Bookings{% endblock title %}
 
 {% block content %}
-{% for booking in bookings %}
+<div class="container mt-5">
     {% if getUserRole == 'administrator' %}
-        <div>
-            <h2>Номер брони: {{ booking.number }} </h2>
-            <p>пассажир: {{ booking.passenger.username }}</p>
-            <p>количество: {{ booking.amount }}</p>
-            <p>стоимость: {{ booking.price }}</p>
-            <p>дата создания: {{ booking.date_created }}</p>
-            <p>статус брони: {{ booking.status }}</p>
-            <form method="post" action="{% url 'edit_booking_status' booking.number %}">
-                {% csrf_token %}
-                <label for="status">Изменить статус:</label>
-                <select id="status" name="status">
-                    {% for status_code, status_label in STATUS_CHOICES %}
-                        <option value="{{ status_code }}" {% if booking.status == status_code %}selected{% endif %}>{{ status_label }}</option>
-                    {% endfor %}
-                </select>
-                <button type="submit">Сохранить</button>
-            </form>
-            <form action="{% url 'delete_booking' booking.number %}" method="post">
-                {% csrf_token %}
-                <button type="submit">Delete booking</button>
-            </form>
-        </div>
+        <h2 class="text-center mb-4">Все бронирования</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Номер брони</th>
+                    <th scope="col">Пассажир</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Стоимость</th>
+                    <th scope="col">Дата создания</th>
+                    <th scope="col">Статус брони</th>
+                    <th scope="col">Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for booking in bookings %}
+                <tr>
+                    <td>{{ booking.number }}</td>
+                    <td>{{ booking.passenger.username }}</td>
+                    <td>{{ booking.amount }}</td>
+                    <td>${{ booking.price }}</td>
+                    <td>{{ booking.date_created }}</td>
+                    <td>
+                        <form method="post" action="{% url 'edit_booking_status' booking.number %}">
+                            {% csrf_token %}
+                            <select id="status" name="status" class="form-select">
+                                {% for status_code, status_label in STATUS_CHOICES %}
+                                    <option value="{{ status_code }}" {% if booking.status == status_code %}selected{% endif %}>{{ status_label }}</option>
+                                {% endfor %}
+                            </select>
+                            <button type="submit" class="btn btn-sm btn-primary mt-2">Сохранить</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="{% url 'delete_booking' booking.number %}" method="post" class="d-inline">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     {% else %}
-        <div>
-            <h2>Номер брони: {{ booking.number }}</h2>
-            <p>Стоимость: ${{ booking.price }}</p>
-            <p>Статус: {{ booking.status }}
-        </div>
-        {% if booking.status == "Принят" %}
-            <form action="{% url 'cancel_booking' booking.number %}" method="post">
-                {% csrf_token %}
-                <button type="submit">Cancel booking</button>
-            </form>
-        {% endif %}
+        <h2 class="text-center mb-4">Мои бронирования</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Номер брони</th>
+                    <th scope="col">Стоимость</th>
+                    <th scope="col">Статус</th>
+                    <th scope="col">Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for booking in bookings %}
+                <tr>
+                    <td>{{ booking.number }}</td>
+                    <td>${{ booking.price }}</td>
+                    <td>{{ booking.status }}</td>
+                    <td>
+                        {% if booking.status == "Принят" %}
+                            <form action="{% url 'cancel_booking' booking.number %}" method="post" class="d-inline">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-sm btn-warning">Cancel</button>
+                            </form>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     {% endif %}
-{% endfor %}
+</div>
 {% endblock content %}

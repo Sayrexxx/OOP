@@ -3,20 +3,28 @@
 {% block header %}Flights{% endblock header %}
 
 {% block content %}
-{% for flight in flights %}
-    <div>
-        <p>number: {{ flight.number }}
-        <p>available_seats: {{ flight.available_seats }}</p>
-        <p>origin_point: {{ flight.origin_point }}</p>
-        <p>departure_time: {{flight.departure_time }}</p>
-        <p>arrival_time: {{flight.arrival_time }}</p>
-        <p>destination_point: {{ flight.destination_point }}</p>
-        <p>price: ${{ flight.price }}</p>
-
-
-        <form action="{% url 'create_booking' flight.number %}" method="get">
-            <button type="submit">Buy</button>
-        </form>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    {% for flight in flights %}
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Flight {{ flight.number }}</h5>
+                <p class="card-text">Available Seats: {{ flight.available_seats }}</p>
+                <p class="card-text">Origin: {{ flight.origin_point }}</p>
+                <p class="card-text">Departure Time: {{ flight.departure_time }}</p>
+                <p class="card-text">Arrival Time: {{ flight.arrival_time }}</p>
+                <p class="card-text">Destination: {{ flight.destination_point }}</p>
+                <p class="card-text">Price: ${{ flight.price }}</p>
+            </div>
+            {% if flight.is_active %}
+            <div class="card-footer">
+                <form action="{% url 'create_booking' flight.number %}" method="get">
+                    <button type="submit" class="btn btn-primary">Buy Ticket</button>
+                </form>
+            </div>
+            {% endif %}
+        </div>
     </div>
-{% endfor %}
+    {% endfor %}
+</div>
 {% endblock content %}

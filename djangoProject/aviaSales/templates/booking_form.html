@@ -1,10 +1,28 @@
-<h1>Booking Details</h1>
-<p>Number of flight: {{ flight.number }}</p>
-<p>Price for seat: ${{ flight.price }}</p>
-<p>Available seats: {{ flight.available_seats }}</p>
+{% extends "base.html" %}
+{% block title %}Booking form{% endblock title %}
 
-<form method="post" action="{% url 'create_booking' flight.number %}">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Book</button>
-</form>
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title text-center mb-4">Booking Details</h1>
+                    <p class="card-text">Number of Flight: {{ flight.number }}</p>
+                    <p class="card-text">Price for Seat: ${{ flight.price }}</p>
+                    <p class="card-text">Available Seats: {{ flight.available_seats }}</p>
+                    <form method="post" action="{% url 'create_booking' flight.number %}">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            {{ form.as_p }}
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Book</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

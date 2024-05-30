@@ -4,11 +4,10 @@ import random
 from celery import shared_task
 from django.core.mail import send_mail
 from .models.flight import Flight
-from .models.booking import Booking
 from .models.user import MyUser
 from .models.notification import Notification
-from django.shortcuts import get_object_or_404
 from datetime import datetime
+from django.utils import timezone
 from django.conf import settings
 
 
@@ -32,24 +31,39 @@ def fetch_and_save_flights():
         arrival_time = arrival['scheduled']
         available_seats = random.randint(50, 200)
         price = format(random.random() * 1000 + 500, ".2f")
-        Flight.objects.create(
-            number=flight_number,
-            origin_point=origin_point,
-            destination_point=destination_point,
-            departure_time=datetime.fromisoformat(departure_time),
-            arrival_time=datetime.fromisoformat(arrival_time),
-            available_seats=available_seats,
-            price=price
-        )
+        if not Flight.objects.filter(number=flight_number).exists():
+            Flight.objects.create(
+                number=flight_number,
+                origin_point=origin_point,
+                destination_point=destination_point,
+                departure_time=datetime.fromisoformat(departure_time),
+                arrival_time=datetime.fromisoformat(arrival_time),
+                available_seats=available_seats,
+                price=price
+            )
         
 
 @shared_task
-def send_email(user_id, booking):
+def send_email(user_id, booking, message=None):
     user = MyUser.objects.get(id=user_id)
-    subject = 'Booking Status Update'
-    message = f'Your booking {booking.number} status has been updated to {booking.status}.'
+    subject = 'ЖМЫХ Airlines. Booking Status Update'
+    if message:
+        body = message
+    else:
+        body = f'Your booking {booking.number} status has been updated to {booking.status}.'
     from_email = settings.DEFAULT_FROM_EMAIL
     recipient_list = [user.email]
 
-    send_mail(subject, message, from_email, recipient_list, fail_silently=False)
-    Notification.objects.create(user=user, message=message)
+    send_mail(subject, body, from_email, recipient_list, fail_silently=False)
+    Notification.objects.create(user=user, message=body)
+    
+@shared_task
+def remove_past_flights():
+    now = timezone.now()
+    
+    past_flights = Flight.objects.filter(arrival_time__lt=now)
+
+    past_flights_count = past_flights.count()
+    past_flights.delete()
+    
+    return f"Deleted {past_flights_count} past flights"

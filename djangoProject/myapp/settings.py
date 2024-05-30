@@ -149,6 +149,10 @@ CELERY_BEAT_SCHEDULE = {
         'task': 'aviaSales.tasks.fetch_and_save_flights',
         'schedule': crontab(minute='*/2'),
     },
+    'remove-past-flights-every-20-minutes': {
+        'task': 'aviaSales.tasks.remove_past_flights',
+        'schedule': crontab(minute='*/20'),
+    },
 }
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
