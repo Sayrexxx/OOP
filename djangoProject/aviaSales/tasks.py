@@ -13,7 +13,7 @@ from django.conf import settings
 
 @shared_task
 def fetch_and_save_flights():
-    url = 'http://api.aviationstack.com/v1/flights?access_key=5283a72fcb0933e27a99a1c156d8c03a&airline_name=American%20Airlines'
+    url = 'http://api.aviationstack.com/v1/flights?access_key=09b07bc1b1afa81e0820aaf4a65f4b54&airline_name=American%20Airlines'
     response = requests.get(url)
     data = response.json()
 

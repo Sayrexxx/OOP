@@ -135,8 +135,8 @@ LOGIN_REDIRECT_URL = '/'
 
 SECRET_KEY_FOR_USER = '12345678qwerty!'
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_BROKER_URL = 'redis://redis:6379/0'
+CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
@@ -147,7 +147,7 @@ from celery.schedules import crontab
 CELERY_BEAT_SCHEDULE = {
     'fetch-and-save-flights-every-5-minutes': {
         'task': 'aviaSales.tasks.fetch_and_save_flights',
-        'schedule': crontab(minute='*/2'),
+        'schedule': crontab(minute='*/5'),
     },
     'remove-past-flights-every-20-minutes': {
         'task': 'aviaSales.tasks.remove_past_flights',

@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: django
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  celery_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.celery
+    container_name: celery_worker
+    command: celery -A myapp worker --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  celery_beat:
+    build:
+      context: .
+      dockerfile: Dockerfile.celery
+    container_name: celery_beat
+    command: celery -A myapp beat --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:6.0-alpine
+    container_name: redis
+    ports:
+      - "6380:6379"
